@@ -73,19 +73,19 @@ See the README inside the corresponding folder for implementation and training d
 
 ```text
 .
-├── raw_crop_resnet/
+├── Raw Crops/
 │   ├── README.md
 │   └── ...
 │
-├── differential_crop_resnet/
+├── Differential Crops/
 │   ├── README.md
 │   └── ...
 │
-├── intensity_mlp/
+├── MLP/
 │   ├── README.md
 │   └── ...
 │
-├── physics_informed_two_stage/
+├── Two Staged CNN/
 │   ├── README.md
 │   └── ...
 │
