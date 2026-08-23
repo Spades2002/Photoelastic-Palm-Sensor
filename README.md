@@ -122,7 +122,7 @@ If you use this repository or build upon this work in academic research, please 
 ```bibtex
 @mastersthesis{rajith2026photoelastic,
   author = {Staines Rajith},
-  title  = {Photoelasticity-Based Tactile Sensing},
+  title  = {Photoelastic Tactile Sensor for a Robotic Palm},
   year   = {2026}
 }
 ```
