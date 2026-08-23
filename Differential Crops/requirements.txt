@@ -1,0 +1,21 @@
+# Core pipeline: indexing, ROI calibration, feature extraction, linear baseline
+opencv-python
+pandas
+numpy
+scikit-learn
+joblib
+
+# Deep model: train_resnet.py, evaluate_resnet.py, predict.py/predict_batch.py --model resnet
+# See train_resnet.py's docstring for GPU setup (install a CUDA build from
+# https://pytorch.org/get-started/locally/ instead of this line if you have an NVIDIA GPU)
+torch
+torchvision
+pillow
+
+# --- Below here: only needed to run simpler_cnc_indent_gui.py / (Updated).py,
+# --- i.e. only on the machine actually wired up to the CNC rig. None of this
+# --- is needed anywhere in the analysis pipeline above.
+pyserial
+nidaqmx
+# nidaqmx also needs NI-DAQmx installed separately (the driver, not a pip
+# package), from ni.com. The pip package alone won't talk to the hardware.
