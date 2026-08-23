@@ -94,8 +94,6 @@ See the README inside the corresponding folder for implementation and training d
 
 Each method is self-contained within its own folder and includes a dedicated README describing its architecture, preprocessing, training procedure and usage.
 
-> **Note:** Update the folder names above to match the actual names used in this repository.
-
 ## Overview
 
 | Method | Image Input | Model | Force | Location |
