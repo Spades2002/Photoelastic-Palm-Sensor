@@ -38,7 +38,3 @@ Run everything with:
     python run_all_plots.py
 
 Or run any numbered script individually.
-
-IMPORTANT MLP NOTE
-------------------
-The folder shown contains mlp_predictions.csv, which is a summary-metrics file rather than a full per-sample prediction file. The MLP is therefore included in the architecture-level Fz MAE comparison, but not in predicted-vs-ground-truth, error-vs-depth, or error-distribution plots. If you later add random_mlp_sample_predictions.csv, those plots can be extended to include the MLP sample as well.
